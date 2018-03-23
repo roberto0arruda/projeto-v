@@ -11,6 +11,32 @@
 
 Projeto-v is a web application developed with Laravel framework.
 
+## Instalação
+
+- `git clone https://github.com/roberto0arruda/projeto-v.git`
+- `cd projeto-v`
+- `cp .env.example .env`
+- `composer install`
+- `npm install` /`yarn`
+- `php artisan key:generate`
+- Edit o aquivo `.env` e insira as informações do banco de dados local
+    # onde
+    `DB_CONNECTION` = `Nome da Conexão`
+    `DB_HOST`       = `Endereço do Servidor`
+    `DB_PORT`       = `Porta de Acesso`
+    `DB_DATABASE`   = `Nome da Base de Dados`
+    `DB_USERNAME`   = `Usuario de acesso`
+    `DB_PASSWORD`   = `Senha de Acesso`
+-   # exemplo
+    `DB_CONNECTION=mysql`
+    `DB_HOST=127.0.0.1`
+    `DB_PORT=3306`
+    `DB_DATABASE=projeto-v`
+    `DB_USERNAME=root`
+    `DB_PASSWORD=secret`
+
+- `php artisan migrate --seed`
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
