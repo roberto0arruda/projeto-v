@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
-    <head>
+    <head>        
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,7 +10,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
-        <!-- Styles -->
+        <!-- Styles -->        
         <style>
             html, body {
                 background-color: #fff;
@@ -49,6 +49,10 @@
                 font-size: 84px;
             }
 
+            .subtitle {
+                font-size: 24px;
+            }
+
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
@@ -76,18 +80,34 @@
                     @endauth
                 </div>
             @endif
-
             <div class="content">
                 <div class="title m-b-md">
                     Projeto V
                 </div>
+                <div class="subtitle m-b-md"><strong>Em Desenvolvimento</strong></div>
+                
+                <div>
+                    <a><strong>
+                        Acadêmicos<br>
+                            - Roberto Arruda<br>
+                            - Johnatan dias<br>
+                            - Moises<br>
+                            - Nelson<br>
+                        Tutor Externo<br>
+                            Luciano José C Teixeira<br>
+                        Centro Universitário Leonardo da Vinci - UNIASSELVI<br>
+                        Análise e Desenvolvimento de Sistemas (ADS0041) – Prática do Módulo V<br><br><br><br>
+                    <strong></a>
+                </div>
 
+                <footer>
                 <div class="links">
                     <a href="https://drive.google.com/drive/folders/18kzuyE2BOiSsfkqoqOMxjo65wEBHvSVR?usp=sharing">Documentation</a>
                     <a href="https://laravel.com/docs">Documentation Laravel</a>
                     <a href="https://laracasts.com">Laracasts</a>                    
-                    <a href="https://github.com/robertosarruda/projeto-v">GitHub</a>
+                    <a href="https://github.com/roberto0arruda/projeto-v">GitHub</a>
                 </div>
+                </footer>
             </div>
         </div>
     </body>
