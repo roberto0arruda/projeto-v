@@ -92,7 +92,7 @@
                             - Roberto Arruda<br>
                             - Johnatan dias<br>
                             - Moises<br>
-                            - Nelson<br>
+                            - Nelson Nascimento<br>
                         Tutor Externo<br>
                             Luciano José C Teixeira<br>
                         Centro Universitário Leonardo da Vinci - UNIASSELVI<br>
