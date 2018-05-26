@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::resource('/carros', 'CarroController');
+Route::resource('/clientes', 'ClienteController');
