@@ -18,7 +18,7 @@ services:
     volumes_from:
       - php
     ports:
-      - 8000:80
+      - 8080:80
   mysql:
     image: mysql:5.7
     volumes:

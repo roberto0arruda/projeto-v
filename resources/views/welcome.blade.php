@@ -91,7 +91,7 @@
                         Acadêmicos<br>
                             - Roberto Arruda<br>
                             - Johnatan dias<br>
-                            - Moises<br>
+                            - Moisés Souza<br>
                             - Nelson Nascimento<br>
                         Tutor Externo<br>
                             Luciano José C Teixeira<br>
@@ -102,6 +102,7 @@
 
                 <footer>
                 <div class="links">
+                    <a href="#">Index</a>
                     <a href="https://drive.google.com/drive/folders/18kzuyE2BOiSsfkqoqOMxjo65wEBHvSVR?usp=sharing">Documentation</a>
                     <a href="https://laravel.com/docs">Documentation Laravel</a>
                     <a href="https://laracasts.com">Laracasts</a>                    

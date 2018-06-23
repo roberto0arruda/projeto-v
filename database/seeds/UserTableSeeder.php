@@ -13,9 +13,12 @@ class UserTableSeeder extends Seeder
     public function run()
     {
         User::create([
-            'name' => 'admin',
+            'id_cliente' => '0',
+            'name' => 'administrador',
+            'username' => 'admin',
             'email' => 'admin@projetov.com',
-            'password' => Hash::make('12345')
+            'password' => Hash::make('admin12345'),
+            'admin' => 1
         ]);
     }
 }

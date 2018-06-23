@@ -18,6 +18,7 @@ class CreateCarrosTable extends Migration
             $table->string('marca');
             $table->string('modelo');
             $table->year('ano');
+            $table->char('tipo', 20);
             $table->enum('cambio',['A','M']);
             $table->integer('portas');
             $table->char('combustivel', 20);
@@ -25,8 +26,10 @@ class CreateCarrosTable extends Migration
             $table->char('cor', 8);
             $table->string('image', 200)->nullable;
             $table->string('opcionais');
-            $table->char('tipo', 20);
             $table->float('diaria', 3,2);
+            $table->enum('status',['A','D','M']);
+            $table->boolean('del')->default(false);
+            $table->integer('del_user')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

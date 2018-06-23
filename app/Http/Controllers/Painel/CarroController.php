@@ -1,8 +1,9 @@
 <?php
-
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Painel;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Models\Carro;
 
 class CarroController extends Controller
 {
@@ -16,9 +17,10 @@ class CarroController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(carro $carro)
     {
-        return 'Lista de carros';
+        return 'Listagem de Carros';
+//        $carros = $carro->all();
     }
 
     /**
