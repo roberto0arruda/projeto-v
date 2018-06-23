@@ -44,6 +44,7 @@ $ cp .env.example .env
 
 ```console
 $ docker-compose up -d
+$ docker-compose exec php composer install
 $ docker-compose exec php init
 ```
 ## Basics commands docker
